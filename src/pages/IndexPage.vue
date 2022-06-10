@@ -5,11 +5,12 @@
       src="~assets/car_23773.png"
       style="width: 200px; height: 200px"
     />
-    <p class="q-mt-md" style="width: 500px; height: 200px">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem ratione
-      voluptatibus ipsum quae possimus sed veritatis dolores, minima perferendis
-      dolor ducimus facere, perspiciatis unde eius fugiat, mollitia vitae animi
-      debitis.
+    <p class="q-mt-md text-center" style="width: 500px; height: 200px">
+      Sistema de gerenciamento feito para a materia de Laboratorio de Software,
+      todos os direitos reservados. Esse sistema consiste em gerenciamento de
+      veiculos e funcionarios para melhor manipulação de dados e organização,
+      com 2 niveis de acesso, pode ser facilmente modificado para atender a
+      outras demandas.
     </p>
   </q-page>
 </template>

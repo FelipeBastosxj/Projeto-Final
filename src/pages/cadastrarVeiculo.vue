@@ -158,15 +158,14 @@ export default defineComponent({
 
     const validacao = async () => {
       if (
-        (veiculoData.value.marca =
-          "" == "" ||
-          veiculoData.value.nome == "" ||
-          veiculoData.value.ano == "" ||
-          veiculoData.value.km == "" ||
-          veiculoData.value.preco == "" ||
-          veiculoData.value.combustivel == "" ||
-          veiculoData.value.versao == "" ||
-          veiculoData.value.ipva == "")
+        veiculoData.value.marca == "" ||
+        veiculoData.value.nome == "" ||
+        veiculoData.value.ano == "" ||
+        veiculoData.value.km == "" ||
+        veiculoData.value.preco == "" ||
+        veiculoData.value.combustivel == "" ||
+        veiculoData.value.versao == "" ||
+        veiculoData.value.ipva == ""
       ) {
         $q.notify({
           message: "Preencha todos os campos",

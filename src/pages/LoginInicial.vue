@@ -7,7 +7,6 @@
       <q-btn
         class="margin"
         color="red"
-        icon="login"
         icon-right="send"
         label="Efetuar o login via google"
         @click="login"
